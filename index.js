@@ -35,6 +35,9 @@ function sayHiToGrandma(string) {
   else if (string == "I love you, ${person}") {
     return "I love you, "+ " " + "too."
   }
+  else {
+    return "wot in tarnation"
+  }
 }
 
 sayHiToGrandma("hello!")
